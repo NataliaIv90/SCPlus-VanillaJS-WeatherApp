@@ -1,13 +1,17 @@
-p,
-div,
-h1,
-h2 {
-  margin: 0px;
-  padding: 0px;
+body {
+  width: 480px;
+  display: block;
+  margin: 0 auto;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 .wrapper {
   font-family: "Montserrat", sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 1em;
   margin: 0;
   padding: 0;
