@@ -19,55 +19,60 @@
     <title>Weather APP🌡</title>
   </head>
   <body>
-    <div class="container wrapper">
-      <header>
-        <form>
-          <input
-            class="form-control"
-            type="text"
-            placeholder="Enter a city..."
-            autocomplete="off"
-            autofocus="on"
-            id=""
-          />
-          <button class="btn btn-primary" type="submit">Search</button>
-          <button class="btn btn-primary" type="button">Current</button>
-        </form>
-      </header>
-      <section>
-        <div class="row">
-          <div class="col-9">
-            <h1>Kamyanets-Podilsky</h1>
-          </div>
-          <div class="col-3">24<a href="#">℃</a>|<a href="#">℉</a></div>
-        </div>
-        <div class="row">
-          <div class="col-5">
-            <ul>
-              <li>Saturday</li>
-              <li>9 july 2022 16:56</li>
-            </ul>
-          </div>
-          <div class="col-3">
-            <img
-              src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
-              alt=""
+    <div class="container">
+      <div class="wrapper">
+        <header>
+          <form>
+            <input
+              class="form-control"
+              type="text"
+              placeholder="Enter a city..."
+              autocomplete="off"
+              autofocus="on"
+              id=""
             />
-          </div>
-          <div class="col-4">
-            <ul>
-              <li>Clouds:48%</li>
-              <li>Wind:7km/h</li>
-              <li>Humidity:80%</li>
-            </ul>
-          </div>
+            <button class="btn btn-primary" type="submit">Search</button>
+            <button class="btn btn-primary" type="button">Current</button>
+          </form>
+        </header>
+        <div class="weather-app">
+          <section>
+            <div class="row">
+              <div class="col-9">
+                <h1>Kamyanets-Podilsky</h1>
+              </div>
+              <div class="col-3">24<a href="#">℃</a>|<a href="#">℉</a></div>
+            </div>
+            <div class="row">
+              <div class="col-5">
+                <ul>
+                  <li>Saturday</li>
+                  <li>9 july 2022 16:56</li>
+                </ul>
+              </div>
+              <div class="col-3">
+                <img
+                  src="https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png"
+                  alt=""
+                />
+              </div>
+              <div class="col-4">
+                <ul>
+                  <li>Clouds:48%</li>
+                  <li>Wind:7km/h</li>
+                  <li>Humidity:80%</li>
+                </ul>
+              </div>
+            </div>
+          </section>
         </div>
-      </section>
-      <footer>
-        <p>
-          Open-source <a href="#">code</a> by <a href="#">Natalia Ivantsova</a>
-        </p>
-      </footer>
+        <footer>
+          <p>
+            Open-source <a href="#">code</a> by
+            <a href="#">Natalia Ivantsova</a>
+          </p>
+        </footer>
+      </div>
     </div>
     <script src="js/script.js"></script>
   </body>
